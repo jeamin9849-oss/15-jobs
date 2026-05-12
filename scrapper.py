@@ -45,7 +45,7 @@ def search_incruit(keyword,pages):
 #     url = f"https://www.saramin.co.kr/zf_user/search/recruit?search_area=main&search_done=y&search_optional_item=n&searchType=search&searchword=%ED%8C%8C%EC%9D%B4%EC%8D%AC&recruitPage={page}&recruitSort=relation&recruitPageCount=40&inner_com_type=&company_cd={keyword}&show_applied=&quick_apply=&except_read=&ai_head_hunting=&mainSearch=n"
 
 
-response = requests.get(url)
-print(response.status_code) # status_code는 보통 HTTP 요청 결과 상태를 나타내는 값 200 : 성공, 404 : 페이지 없음
-print(response.text)
+# response = requests.get(url)
+# print(response.status_code) # status_code는 보통 HTTP 요청 결과 상태를 나타내는 값 200 : 성공, 404 : 페이지 없음
+# print(response.text)
 
